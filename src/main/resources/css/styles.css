@@ -1,0 +1,13 @@
+.header-box {
+    -fx-background-color: #F0F0F0;
+}
+
+.header-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.footer-label {
+    -fx-font-size: 10px;
+    -fx-text-fill: gray;
+}

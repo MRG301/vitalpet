@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="mx.edu.uacm.is.slt.ds.vitalpet.controlador.MainController">
+
+    <top>
+        <HBox spacing="10" styleClass="header-box">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label fx:id="headerLabel" styleClass="header-label" HBox.hgrow="ALWAYS"/>
+            <Button text="Acerca de" onAction="#onMostrarAcercaDe"/>
+        </HBox>
+    </top>
+
+    <!-- botones de navegación agrupados -->
+    <center>
+        <VBox spacing="15" alignment="TOP_CENTER">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <Button text="Gestionar Operaciones" onAction="#onEditarOperaciones" prefWidth="200"/>
+        </VBox>
+    </center>
+
+    <!-- versión y otros datos -->
+    <bottom>
+        <HBox alignment="CENTER_RIGHT">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="v1.0.1" styleClass="footer-label"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

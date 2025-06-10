@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                mx.edu.uacm.is.slt.ds.vitalpet.vitalpet/mx.edu.uacm.is.slt.ds.vitalpet.vitalpet.HelloApplication
+                                mx.edu.uacm.is.slt.ds.vitalpet.vitalpet/mx.edu.uacm.is.slt.ds.vitalpet.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
